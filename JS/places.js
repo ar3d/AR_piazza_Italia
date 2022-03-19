@@ -31,26 +31,26 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: "Ciao!!",
+            name: "Palazzo della Provincia",
             location: {
-                lat: 40.72555620444061, // change here latitude if using static data
-                lng: 8.56526266783476, // change here longitude if using static data
-            },
-			image: "assets/map-marker_2.png",
-			href: "https://www.acquaepietra.it/NSDA/start_page/timeline_venafro.html",
-			target: "_blank",
-			text: "vuoi saperne di più?"
-        },
-		{
-            name: "Ariciao!!",
-            location: {
-                lat: 40.72617414060629, // change here latitude if using static data
-                lng: 8.565589897334577, // change here longitude if using static data
+                lat: 40.725374, // change here latitude if using static data
+                lng: 8.564491, // change here longitude if using static data
             },
 			image: "assets/map-marker.png",
-			href: "https://www.visitmolise.eu",
-			target: "_blank",
-			text: "vuoi saperne di più?"
+			href: "https://it.wikipedia.org/wiki/Palazzo_della_Provincia_(Sassari)",
+			sfondo: "assets/palazzo_provincia.jpg",
+			text: "Costruito tra il 1873 e il 1878 dall'ing. Borgnini affiancato dall'ing. Sironi in stile neoclassico, ospita gli uffici della Prefettura e della Provincia di Sassari"
+        },
+		{
+            name: "Palazzo Giordano",
+            location: {
+                lat: 40.724974, // change here latitude if using static data
+                lng: 8.563411, // change here longitude if using static data
+            },
+			image: "assets/map-marker.png",
+			href: "https://it.wikipedia.org/wiki/Palazzo_Giordano",
+			sfondo: "assets/palazzo_giordano.jpg",
+			text: "Fu costruito in stile neogotico dall'ing. Pasquali e dall'arch. Fasoli per conto del senatore Giuseppe Giordano Apostoli a partire dal 1877"
         },
     ];
 }
@@ -100,9 +100,9 @@ function renderPlaces(places) {
         icon.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         icon.setAttribute('name', place.name);
         icon.setAttribute('src', place.image);
-        icon.setAttribute('scale', '5 5 5');
+        icon.setAttribute('scale', '2 2 2');
 		icon.setAttribute('href', place.href);
-		icon.setAttribute('target', place.target);
+		icon.setAttribute('sfondo', place.sfondo);
 		icon.setAttribute('text', place.text);
 		
 
@@ -117,6 +117,8 @@ const clickListener = function (ev) {
 
     const name = ev.target.getAttribute('name');
 	const link = ev.target.getAttribute('href');
+	const testo = ev.target.getAttribute('text');
+	const sfondo = ev.target.getAttribute('sfondo');
     const el = ev.detail.intersection && ev.detail.intersection.object.el;
 	
     if (el && el === ev.target) {
@@ -124,7 +126,7 @@ const clickListener = function (ev) {
         const label = document.createElement('span');
         const container = document.createElement('div');
         container.setAttribute('id', 'place-label');
-        label.innerHTML = name+"<br>"+"<a href="+link+" target='_blank'>Vuoi saperne di più</a>";
+		label.innerHTML = "<a href="+link+"><img src="+sfondo+"></a>
         container.appendChild(label);
         document.body.appendChild(container);
 
