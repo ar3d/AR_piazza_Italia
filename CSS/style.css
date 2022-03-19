@@ -39,7 +39,12 @@ div.debug {
     width: 100%;
 }
 
-# place-label img > span{
+# place-label img {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
 
