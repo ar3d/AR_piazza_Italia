@@ -44,7 +44,7 @@ div.debug {
     width: 100%;
 }
 
-#place-label {
+.place-label {
     z-index: 99999;
     padding: 0.25em;
     color: #ff7500;
