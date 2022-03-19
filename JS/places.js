@@ -36,7 +36,7 @@ function staticLoadPlaces() {
                 lat: 40.725374, // change here latitude if using static data
                 lng: 8.564491, // change here longitude if using static data
             },
-			look-at: "[gps-camera]"
+			look: "[gps-camera]"
 			image: "assets/map-marker.png",
 			href: "https://it.wikipedia.org/wiki/Palazzo_della_Provincia_(Sassari)",
 			sfondo: "assets/palazzo_provincia.jpg",
@@ -48,7 +48,7 @@ function staticLoadPlaces() {
                 lat: 40.724974, // change here latitude if using static data
                 lng: 8.563411, // change here longitude if using static data
             },
-			look-at: "[gps-camera]"
+			look: "[gps-camera]"
 			image: "assets/map-marker.png",
 			href: "https://it.wikipedia.org/wiki/Palazzo_Giordano",
 			sfondo: "assets/palazzo_giordano.jpg",
@@ -100,7 +100,7 @@ function renderPlaces(places) {
         // add place name
         let icon = document.createElement('a-image');
         icon.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
-        icon.setAttribute('look-at', place.look-at);
+        icon.setAttribute('look-at', place.look);
 		icon.setAttribute('name', place.name);
         icon.setAttribute('src', place.image);
         icon.setAttribute('scale', '5 5 5');
