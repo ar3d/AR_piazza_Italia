@@ -31,7 +31,7 @@ div.debug {
 }
 
 #place-label {
-    position: absolute;
+    position: relative;
     top: 5%;
     left: 5%;
     display: flex;
@@ -40,11 +40,11 @@ div.debug {
 }
 
 #place-label img {
-	position: absolute;
     width: 100%;
+	height: auto;
 }
 
-#place-label {
+#place-label > span{
     z-index: 99999;
     padding: 0.25em;
     color: #ff7500;
