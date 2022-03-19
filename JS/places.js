@@ -100,7 +100,7 @@ function renderPlaces(places) {
         icon.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         icon.setAttribute('name', place.name);
         icon.setAttribute('src', place.image);
-        icon.setAttribute('scale', '2 2 2');
+        icon.setAttribute('scale', '5 5 5');
 		icon.setAttribute('href', place.href);
 		icon.setAttribute('sfondo', place.sfondo);
 		icon.setAttribute('text', place.text);
@@ -126,7 +126,7 @@ const clickListener = function (ev) {
         const label = document.createElement('span');
         const container = document.createElement('div');
         container.setAttribute('id', 'place-label');
-        label.innerHTML = name+"<br>"+"<a href="+link+" target='_blank'>"+name+"<br>"+testo"</a>";
+        label.innerHTML = name+"<br>"+"<a href="+link+" target='_blank'>"+name+"<br>"+testo+"</a>";
         container.appendChild(label);
         document.body.appendChild(container);
 
