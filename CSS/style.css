@@ -39,6 +39,10 @@ div.debug {
     width: 100%;
 }
 
+#place-label img {
+    width: 100%;
+}
+
 #place-label > span {
     z-index: 99999;
     padding: 0.25em;
