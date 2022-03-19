@@ -39,7 +39,7 @@ div.debug {
     width: 100%;
 }
 
-img {
+# place-label img > span{
     width: 100%;
 }
 
