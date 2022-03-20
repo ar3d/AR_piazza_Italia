@@ -33,15 +33,13 @@ div.debug {
 #place-label {
     position: absolute;
     top: 5%;
-    left: 5%;
+    left: 0%;
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-}
-
-#place-label > span{
+#place-label > span {
     z-index: 99999;
     padding: 0.25em;
     color: #ff7500;
