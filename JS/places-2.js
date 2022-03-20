@@ -128,10 +128,10 @@ const clickListener = function (ev) {
         // after click, we are adding a label with the name of the place
         const label = document.createElement('span');
         const container = document.createElement('div');
-        container.setAttribute('id', 'place-label-tot');
-        label.innerHTML = "<a href="+link+"><img src="+sfondo+" target='_blank'><DIV class='place-label'>"+name+"<br>"+testo+"</DIV></a>";
+        label.innerHTML = "<a href="+href+" class='animated-button1' target='_blank'><span></span><span></span><span></span><span></span>"+name+"<br>"+text+"</a>";
         container.appendChild(label);
         document.body.appendChild(container);
+		
 
         setTimeout(() => {
             // that will disappear after less than 2 seconds
