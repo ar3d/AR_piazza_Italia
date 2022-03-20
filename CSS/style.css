@@ -31,9 +31,6 @@ div.debug {
 }
 
 #place-label {
-	background-repeat:no-repeat;
-    background-size:100%;
-    background-position:center;
     position: absolute;
     top: 5%;
     left: 5%;
