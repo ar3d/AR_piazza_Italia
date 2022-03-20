@@ -132,7 +132,7 @@ const clickListener = function (ev) {
         label.innerHTML = "<a href="+link+"> target='_blank'>"+name+"<br>"+testo+"</a>";
         container.appendChild(label);
         document.body.appendChild(container);
-		document.body.style.backgroundImage = "url('sfondo')";
+		
 
         setTimeout(() => {
             // that will disappear after less than 2 seconds
