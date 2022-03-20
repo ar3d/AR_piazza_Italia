@@ -31,6 +31,9 @@ div.debug {
 }
 
 #place-label {
+	background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
     position: absolute;
     top: 5%;
     left: 5%;
@@ -39,14 +42,6 @@ div.debug {
     width: 100%;
 }
 
- img {
-	 z-index: -1;
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    display: flex;
-    justify-content: center;
-    width: 100%;
 }
 
 #place-label > span{

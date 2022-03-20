@@ -129,9 +129,10 @@ const clickListener = function (ev) {
         const label = document.createElement('span');
         const container = document.createElement('div');
         container.setAttribute('id', 'place-label');
-        label.innerHTML = "<a href="+link+"><img src="+sfondo+" target='_blank'><DIV>"+name+"<br>"+testo+"</DIV></a>";
+        label.innerHTML = "<a href="+link+"> target='_blank'>"+name+"<br>"+testo+"</a>";
         container.appendChild(label);
         document.body.appendChild(container);
+		document.body.style.backgroundImage = "url('sfondo')";
 
         setTimeout(() => {
             // that will disappear after less than 2 seconds
