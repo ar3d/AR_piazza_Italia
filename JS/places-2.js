@@ -128,7 +128,7 @@ const clickListener = function (ev) {
         // after click, we are adding a label with the name of the place
         const container = document.createElement('a');
 		container.setAttribute('class', 'animated-button1');
-        document.container.innerHTML = "href="+link+" target='_blank'><span></span><span></span><span></span><span></span>"+name+"<br>"+testo";
+        document.container.innerHTML = "href="+link+" target='_blank'><span></span><span></span><span></span><span></span>"+name+"<br>"+testo+";
 		document.body.appendChild(container);
         
 		
