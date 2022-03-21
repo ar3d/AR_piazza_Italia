@@ -54,7 +54,7 @@ div.debug {
     background-position:center;
 	position: relative;
   padding: 20px 40px;
-  margin: 12px;
+  right: 0.5em;
   display: inline-block;
   -webkit-transform: translate(0%, 0%);
           transform: translate(0%, 0%);
