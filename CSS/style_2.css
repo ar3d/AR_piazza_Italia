@@ -53,9 +53,9 @@ div.debug {
     background-size:100%;
     background-position:center;
 	position: absolute;
-	right: 0.5em;
+	right: 40px;
   padding: 20px 40px;
-  margin: 50px;
+  margin: 12px;
   display: inline-block;
   -webkit-transform: translate(0%, 0%);
           transform: translate(0%, 0%);
