@@ -33,7 +33,7 @@ div.debug {
 #place-label {
     position: absolute;
     top: 5%;
-    left: 5%;
+    left: 0%;
     display: flex;
     justify-content: center;
     width: 100%;
