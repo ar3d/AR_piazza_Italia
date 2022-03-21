@@ -6,7 +6,6 @@ div.debug {
     position: fixed;
     bottom: 20px;
     left: 10px;
-	right: 0.5em;
     z-index: 1;
     width: 100%;
     background-color: rgba(1, 1, 1, 0.2);
@@ -53,8 +52,9 @@ div.debug {
     background-repeat:no-repeat;
     background-size:100%;
     background-position:center;
-	position: relative;
+	
   padding: 20px 40px;
+  margin: 12px;
   display: inline-block;
   -webkit-transform: translate(0%, 0%);
           transform: translate(0%, 0%);
