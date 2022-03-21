@@ -44,6 +44,7 @@ div.debug {
     padding: 0.25em;
     color: #ff7500;
     text-align: center;
+	text-decoration: none;
     background-image: url('assets/palazzo_giordano.jpg');
     background-repeat:no-repeat;
     background-size:100%;
