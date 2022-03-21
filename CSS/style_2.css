@@ -6,6 +6,7 @@ div.debug {
     position: fixed;
     bottom: 20px;
     left: 10px;
+	right: 10px;
     z-index: 1;
     width: 100%;
     background-color: rgba(1, 1, 1, 0.2);
@@ -89,7 +90,6 @@ div.debug {
 
 .animated-button1 span {
   position: absolute;
-  right: 0px;
 }
 
 .animated-button1 span:nth-child(1) {
