@@ -88,7 +88,8 @@ div.debug {
 }
 
 .animated-button1 span {
-  position: relative;
+  position: absolute;
+  right: 0px;
 }
 
 .animated-button1 span:nth-child(1) {
