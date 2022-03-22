@@ -45,7 +45,6 @@ div.debug {
     padding: 0.25em;
     color: #ff7500;
     text-align: center;
-	background-color: #ffffff;
 	
 }
 
@@ -54,6 +53,7 @@ div.debug {
     background-repeat:no-repeat;
     background-size:100%;
     background-position:center;
+	background-color: white;
 	position: absolute;
 	right: 0.5em;
   padding: 20px 40px;
