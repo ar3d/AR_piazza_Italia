@@ -129,7 +129,7 @@ const clickListener = function (ev) {
 		const label = document.createElement('span');
         const container = document.createElement('div');
 		container.setAttribute('id', 'place-label');
-		label.innerHTML = '<a href="'+link+'" target="_blank" class="animated-button1" style="background-image:url('+sfondo+')"><span></span><span></span><span></span><span></span>'+name+'<br>'+testo+'</a>';
+		label.innerHTML = '<a href="'+link+'" target="_blank" class="animated-button1" style="background-image:url('+sfondo+')"><span></span><span></span><span></span><span></span><p class="p1">'+name+'</p><br><p class="p2">'+testo+'</p></a>';
 		container.appendChild(label);
 		document.body.appendChild(container);
         
