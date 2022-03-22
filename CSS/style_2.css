@@ -35,7 +35,6 @@ div.debug {
     position: absolute;
     top: 5%;
     left: 0.5em;
-	background-color: #ffffff;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -46,6 +45,7 @@ div.debug {
     padding: 0.25em;
     color: #ff7500;
     text-align: center;
+	background-color: #ffffff;
 	
 }
 
