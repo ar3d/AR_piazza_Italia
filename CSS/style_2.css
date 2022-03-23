@@ -232,7 +232,7 @@ div.debug {
 }
 
 .centered {
-    height: 20%;
+    height: 10%;
     justify-content: center;
     position: fixed;
     bottom: 0%;
@@ -266,7 +266,7 @@ button {
     margin-right: auto;
 	margin-bottom: auto;
 	margin-top: auto;
-	 border-radius: 100%;
+	 border-radius: 120%;
 	 background-color: rgba(0, 0, 0, 0.4);
 	 outline: none;
 	}
