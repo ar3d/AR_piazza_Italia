@@ -217,6 +217,7 @@ div.debug {
   text-align: center;
   line-height: 1;
   text-decoration: none;
+  margin-bottom: 2px;
 }
 
 .p2 {
@@ -226,5 +227,21 @@ div.debug {
   letter-spacing: 2.5px;
   text-align: center;
   line-height: 1.2;
+  margin-top: 2px;
   text-decoration: none;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    background-color: transparent;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    outline: none;
 }
