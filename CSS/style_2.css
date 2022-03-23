@@ -258,3 +258,15 @@ button {
     color: white;
     outline: none;
 }
+
+.immagine {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	 border-radius: 100%;
+	 background-color: rgba(0, 0, 0, 0.4);
+	 outline: none;
+	}
