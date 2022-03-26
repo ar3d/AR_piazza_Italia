@@ -136,9 +136,9 @@ const clickListener = function (ev) {
 		
 
         setTimeout(() => {
-            // that will disappear after less than 2 seconds
+            // that will disappear after less than 6 seconds
             container.parentElement.removeChild(container);
-        }, 3000);
+        }, 6000);
      }
  };
 icon.addEventListener('click', clickListener);
